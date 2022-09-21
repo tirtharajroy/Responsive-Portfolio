@@ -216,6 +216,9 @@ footer {
     margin-top: 35px;
     margin-bottom: 10px;
   }
+  header nav a{
+    margin: 14.2px;
+  }
   header {
     background: url("img/mac.jpg") no-repeat -250px -300px;
   }
@@ -242,5 +245,19 @@ footer {
   }
   #form {
     height: auto;
+    width: 228px;
+    padding-left:10%;
+    padding-right:10%;
+  }
+}
+@media (max-width: 379px) {
+  header nav a{
+    margin: 50.2px;
+  }
+}
+@media (max-width: 400px) {
+  #form {
+    height: auto;
+    width: 150px;
   }
 }
