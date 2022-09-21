@@ -64,7 +64,9 @@ header #heading h1 {
 header nav {
   float: right;
   margin-top: 13px;
+  position: inherit;
 }
+
 /*Showcase*/
 
 #showcase {
