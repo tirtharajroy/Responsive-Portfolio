@@ -53,7 +53,7 @@ header li {
   list-style: none;
   display: inline;
   float: left;
-  /*padding: 0 25px;*/
+  padding: 0 5px;
 }
 header #heading {
   float: left;
@@ -64,7 +64,6 @@ header #heading h1 {
 header nav {
   float: right;
   margin-top: 13px;
-  position: inherit;
 }
 
 /*Showcase*/
@@ -214,6 +213,9 @@ footer {
     text-align: center;
     width: 100%;
   }
+  header li{
+    padding: 0 120px;
+  }
   header nav {
     margin-top: 35px;
     margin-bottom: 10px;
@@ -256,10 +258,16 @@ footer {
   header nav a{
     margin: 50.2px;
   }
+  header li{
+    padding: 0 8px;
+  }
 }
 @media (max-width: 400px) {
   #form {
     height: auto;
     width: 150px;
+  }
+  header li{
+    padding: 0 40px;
   }
 }
