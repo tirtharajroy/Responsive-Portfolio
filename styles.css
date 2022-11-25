@@ -248,8 +248,6 @@ footer {
     width: 400px;
   }
   #form {
-    height: auto;
-    width: 228px;
     padding-left:10%;
     padding-right:10%;
   }
@@ -263,10 +261,6 @@ footer {
   }
 }
 @media (max-width: 400px) {
-  #form {
-    height: auto;
-    width: 150px;
-  }
   header li{
     padding: 0 40px;
   }
