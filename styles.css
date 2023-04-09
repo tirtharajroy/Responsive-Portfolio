@@ -263,3 +263,24 @@ footer {
     padding: 0 40px;
   }
 }
+
+/* Skew Property */
+#skew{
+  width: 100vw;
+  height: 5em;
+  background-color: #000;
+  transform: skewY(-3deg);
+  position: relative;
+  top: -3em;
+  z-index: -1;
+}
+
+/* #skew{
+  width: 100vw;
+  height: 7em;
+  background-color: #000;
+  transform: skewY(-5deg);
+  position: relative;
+  top: -3.35em;
+  z-index: -1;
+} */
