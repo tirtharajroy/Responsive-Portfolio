@@ -239,13 +239,11 @@ footer {
     font-size: 18px;
   }
   #contact .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    display: block;
   }
   #map {
     height: 400px;
-    width: 400px;
+    /* width: 400px; */
   }
   #form {
     padding-left:10%;
